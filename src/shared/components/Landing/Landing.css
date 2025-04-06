@@ -1,0 +1,87 @@
+.landing-container {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ width: 1000px;
+ margin: 100px 200px 0px 200px;
+}
+
+.text-container {
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ gap: 100px;
+}
+
+.search-container {
+ display: flex;
+ align-items: start;
+ gap: 25px;
+}
+
+.search{
+  padding: 10px 20px; 
+  background-color: white;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 250px;
+}
+
+
+.search input{
+  background-color: white;
+  border: 0px;
+  outline: none;
+  font-size: 18px;
+}
+
+.search i{
+  color: black;
+  font-size: 18px;
+}
+
+.search input::placeholder{
+  color: black;
+  font-size: 18px;
+}
+
+
+
+.search-container button{
+  padding: 10px 20px; 
+  background-color: White;
+  border-radius: 50px;
+  border: none;
+  color: #FF5C00;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3ss ease-in-out;
+}
+
+.search-container button:hover{
+  background-color: #FF5C00;
+  color: white;
+}
+
+.text-container h1{
+  font-size: 60px;
+  color: white;
+  font-weight: 700;
+}
+
+.text-container h1 span{
+  color: #FF5C00;
+}
+
+.text-container p{
+  font-size: 20px;
+  color: white;
+  font-weight: 500;
+}
+
+.image-container img {
+ width: 475px;
+}
