@@ -1,4 +1,5 @@
 import "./Login.css";
+import { Link } from "react-router-dom";
 
 function Login() {
   return (
@@ -14,7 +15,7 @@ function Login() {
         <button>Log in</button>
         <div className="register-redirect">
           <p>Don't have an account?</p>
-          <a href="">Register</a>
+          <Link to="/register">Register</Link>
         </div>
       </div>
     </div>

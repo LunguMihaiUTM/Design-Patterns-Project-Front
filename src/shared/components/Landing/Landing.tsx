@@ -21,7 +21,7 @@ function Landing() {
         </p>
       </div>
       <div className="image-container">
-        <img src="src/assets/Landing.png" alt="Pizza" />
+        <img src="src/assets/logo.svg" alt="Pizza" />
       </div>
     </div>
   );

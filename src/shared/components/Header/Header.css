@@ -2,11 +2,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin : 0px 200px;
+  padding : 20px 200px 0px 200px;
 }
 
 .logo-container h1{
-  font-weight: 700;
   color: #FF5C00;
 }
 
@@ -16,8 +15,20 @@
   margin: 0px;
 }
 
-.nav-container ul li{
-  margin: 0px 25px;
+.nav-container ul li {
+  margin: 0px 0px 0px 50px;
   color: white;
   font-size: 18px;
+}
+
+.nav-container ul li a{
+  margin: 0px;
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  transition: all 0.35s ease-in-out;
+}
+
+.nav-container ul li a:hover{
+  color: #FF5C00;
 }

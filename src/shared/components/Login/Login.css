@@ -1,6 +1,5 @@
 .login-container{
-  background-image: url('/src/assets/login.webp');
-  background-size: contain;
+  background-color : #1c1c1c;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,6 +23,9 @@
   height: 550px;
   width: 400px;
   background-color: rgba(28, 28, 28, 0.9);
+
+  box-shadow: 0 0 50px 10px rgba(255,92,0, 0.1); /* glowing orange */
+
 }
 
 
@@ -58,16 +60,16 @@
   width: 100%;
 }
 
-input::placeholder {
+.input-group input::placeholder {
   color: rgba(255, 255, 255, 0.5);
   font-weight: 600; 
   opacity: 1;
 }
 
-input:focus {
+.input-group input:focus {
   outline: none;
   border-bottom: 2px solid #FF5C00;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 
@@ -80,14 +82,14 @@ input:focus {
   font-weight: 700;
   border-style: none;
   border-radius: 25px;
-  transition: background-color, color 0.5s ease;
+  cursor: pointer;
+  transition: all 0.5s ease;
 
 }
 
 .login-form button:hover{
   background-color: white;
   color: #FF5C00;
-  cursor: pointer;
 } 
 
 .register-redirect{
