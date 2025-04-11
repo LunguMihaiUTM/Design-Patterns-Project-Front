@@ -1,0 +1,15 @@
+export const AppRoutes = {
+  MAIN: '/',
+  CART: '/cart',
+  ORDER_TYPE: '/order-type',
+  TAKEAWAY: '/takeaway',
+  IN_RESTAURANT: '/in-restaurant',
+  CATEGORY_PAGE: '/categories',
+  RESTAURANTS: '/restaurants',
+  ABOUT: '/about',
+  CONTACT: '/contact',
+  LOGIN: '/login',
+  REGISTER: '/register',
+  FORM_TAKEAWAY: '/form-takeaway',
+  FORM_IN_RESTAURANT: '/form-in-restaurant',
+};
